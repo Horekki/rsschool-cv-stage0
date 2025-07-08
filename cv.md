@@ -39,3 +39,37 @@ Goal: grow as a frontend developer first, then transition to full-stack.
 - PyCharm
 - Figma
 - Windows
+
+### Code Example
+
+```javascript
+function arrayDiff(a, b) {
+  return a.filter((item) => !b.includes(item));
+}
+```
+
+```javascript
+function maskify(cc) {
+  return cc.slice(0, -4).replace(/./g, "#") + cc.slice(-4);
+}
+```
+
+## Achievements
+
+##### X-Labs Hackathon 2025 (1st Place)
+
+- Built Telegram bot for rabota.by integration
+
+## Education
+
+- **BSUIR**
+  - Information systems and technologies (2023–2027)
+- **Coursework:**
+  - Web Development
+  - Databases
+  - Algorithms
+
+## Languages
+
+- **English:** A2 (B1 in process…)
+- **Russian:** Native
