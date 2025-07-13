@@ -1,1 +1,1 @@
-# rsschool-cv
+https://horekki.github.io/rsschool-cv/
