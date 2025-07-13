@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Clother";
+  src: url("../assets/fonts/Clother-Light.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Clother";
+  src: url("../assets/fonts/Clother-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Clother";
+  src: url("../assets/fonts/Clother-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Clother";
+  src: url("../assets/fonts/Clother-Black.ttf");
+  font-weight: 900;
+}
+
+:root {
+  --primary-color: #faaf0f;
+  --secondary-color: #05324b;
+  --text-color: #aaa;
+  --background-color: #eee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Clother", sans-serif;
+  line-height: 1.5;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
