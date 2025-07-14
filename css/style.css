@@ -251,11 +251,11 @@ body {
 
 .projects {
   width: 100%;
-  margin-top: 40px; /* Отступ от предыдущего раздела */
+  margin-top: 40px;
 }
 
 .projects ul {
-  list-style: none; /* Убираем стандартные маркеры списка */
+  list-style: none;
   padding: 0;
   margin: 0;
 }
@@ -268,7 +268,7 @@ body {
 .projects ul li a {
   font-size: 24px;
   text-decoration: none;
-  color: var(--secondary-color); /* Цвет ссылки, можно изменить */
+  color: var(--secondary-color);
   font-weight: 700;
   transition: color 0.3s ease-in-out;
 }
