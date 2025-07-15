@@ -26,7 +26,7 @@
   </header>
 
   <main class="container main">
-    <section class="section section-small">
+    <div class="section section-small">
       <figure class="profile-photo">
         <img src="assets/img/photo.jpg" alt="Profile photo">
       </figure>
@@ -70,9 +70,9 @@
           <li>Windows</li>
         </ul>
       </section>
-    </section>
+    </div>
 
-    <section class="section section-medium">
+    <div class="section section-medium">
       <article class="title">
         <h1>ROMAN MAKSIMOVICH</h1>
         <p>Full-Stack Developer</p>
@@ -87,17 +87,29 @@
 
       <section class="code" id="code">
         <h2 class="section-title">CODE EXAMPLE</h2>
-        <pre class="code-block"><code class="code-content">function arrayDiff(a, b) {
+        <pre><code>function arrayDiff(a, b) {
   return a.filter((item) => !b.includes(item));
 }
 
 function maskify(cc) {
-  return cc.slice(0, -4).replace(/./g, "#") + cc.slice(-4);
+  return cc.slice(0, -4).replace(/./g, "#") 
+  + cc.slice(-4);
 }</code></pre>
-      </section>
-    </section>
 
-    <section class="section section-large">
+        <section class="projects" id="projects">
+          <h2 class="section-title">PROJECTS</h2>
+          <ul>
+            <li><a href="https://github.com/Horekki/FlaskPetProjectBlogs">Flask Project</a></li>
+            <li><a href="https://github.com/Horekki/PythonMLPetProject">Python Machine Learning Project</a></li>
+            <li><a href="https://github.com/Horekki/PyGameOnlineProject">Python Game Project</a></li>
+          </ul>
+        </section>
+
+      </section>
+    </div>
+
+    <div class="section section-large">
+
       <article id="achievements" class="achievements">
         <h2 class="section-title">ACHIEVEMENTS</h2>
         <ul>
@@ -123,11 +135,11 @@ function maskify(cc) {
           <li>Russian: Native</li>
         </ul>
       </article>
-    </section>
+    </div>
   </main>
 
   <footer class="footer container">
-    <a class="footer-link" href="https://github.com/Horekki" \>
+    <a class="footer-link" href="https://github.com/Horekki">
       GitHub
     </a>
     <p class="footer-year">2025</p>

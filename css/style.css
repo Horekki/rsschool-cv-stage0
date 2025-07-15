@@ -109,6 +109,7 @@ body {
   flex: 1.5;
   background-color: #eee;
   min-height: 300px;
+  
 }
 
 .section-large {
@@ -166,13 +167,6 @@ body {
   margin: 0;
 }
 
-/* .skills {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 100%;
-} */
-
 .skills h3 {
   color: #fff;
   margin: 0;
@@ -192,12 +186,8 @@ body {
   color: var(--light-text-color);
 }
 
-
-
-
 .title{
   width: 100%;
-  /* margin-bottom: 40px; */
 }
 
 .title h1 {
@@ -250,12 +240,43 @@ body {
 
 .code pre {
   padding: 15px;
+  overflow-x: auto;
 }
 
-.code pre {
+.code pre code {
   font-family: monospace;
   color: var(--dark-text-color);
+  word-break: break-all;
 }
+
+.projects {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.projects ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.projects ul li {
+  margin-bottom: 10px;
+  color: var(--dark-text-color);
+}
+
+.projects ul li a {
+  font-size: 24px;
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: 700;
+  transition: color 0.3s ease-in-out;
+}
+
+.projects ul li a:hover {
+  color: var(--primary-color);
+}
+
 
 .section-large article {
   width: 100%;
@@ -314,7 +335,7 @@ body {
 .footer-link {
   color: #fff;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 24px;
   transition: color 0.3s ease-in-out;
 }
 
@@ -323,7 +344,7 @@ body {
 }
 
 .footer-year {
-  color: var(--light-text-color);
+  color: #fff;
   font-size: 20px;
   margin: 0;
 }
@@ -331,10 +352,4 @@ body {
 .footer-rsschool img {
   height: 40px;
   vertical-align: middle;
-  opacity: 0.8;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.footer-rsschool:hover img {
-  opacity: 1;
 }
